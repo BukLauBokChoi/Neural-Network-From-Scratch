@@ -109,3 +109,6 @@ class NeuralNetwork(object):
             if j % (iterations // err_interval) == 0:
                 error_history.append(np.mean(np.abs(labels - pred)))
         return error_history
+
+    
+print("Hello World")
